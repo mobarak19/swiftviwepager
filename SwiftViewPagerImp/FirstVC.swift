@@ -18,15 +18,10 @@ class FirstVC: UIViewController {
     }()
     override func viewDidLoad() {
         super.viewDidLoad()
-
         view.backgroundColor = .systemTeal
-        
         view.addSubview(myLable)
         myLable.frame = view.bounds
-        
     }
-
-
 }
 extension String{
     func localized()->String{
